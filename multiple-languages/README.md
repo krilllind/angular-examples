@@ -118,14 +118,14 @@ In `angular.json`, create a new `i18n` property above `architect` and add the `l
 
 10. Translate and build
 
-Send your language specific files to a linguist or translate them your self. Once completed, run the `npm run i18n` command again to ensure line number and id is correct, then proceed to build angular in production mode like normal.
+Send your language specific files to a linguist or translate them yourself. Once completed, run the `npm run i18n` command again to ensure line number and id's are correct, then proceed to build angular in production mode like normal.
 
 ```bash
 > npm run i18n
 > npm run build
 ```
 
-This will result in two output directories under `/dist`, one fore each language.
+This will result in two output directories under `/dist`, one fore each language. You can then configure in your hosting provider which language version a users should be redirected to.
 
 - en-US
 - sv-SE
